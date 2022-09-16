@@ -15,7 +15,7 @@
 #   limitations under the License.
 # ****************************************************************************
 
-ifeq ($(BOLOS_SDK),)
+ifeq (/opt/nanosplus-secure-sdk,)
 $(error Environment variable BOLOS_SDK is not set)
 endif
 
